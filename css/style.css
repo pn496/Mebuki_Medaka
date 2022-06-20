@@ -140,7 +140,7 @@ article {
 .post-info {
     position: relative;
     padding-top: 4px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .post-date {
     background: rgba(26, 202, 167, 0.749);
@@ -323,7 +323,9 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-
+    .logo {
+        width:150px;
+    }
     /* HEADER */
     .main-nav {
         font-size: 1rem;
@@ -380,7 +382,9 @@ footer p {
     .menu-content {
         margin-top: 20%;
     }
-
+    #menu {
+        min-height: 65vh;
+    }
     /* CONTACT */
     #contact .page-title {
         margin-top: 40px;
