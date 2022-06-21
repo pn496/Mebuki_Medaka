@@ -19,7 +19,7 @@
                 <h1><a href="index.html"><img class="logo" src="images/logo.png" alt="Mebuki Medaka ホーム"></a></h1>
                 <nav>
                     <ul class="main-nav">
-                        <li><a href="news.html">News</a></li>
+                        <li><a href="news.html">Top</a></li>
                         <li><a href="menu.html">Menu</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -35,7 +35,7 @@
             </div><!-- /.menu-content -->
         </div><!-- /#menu -->
 
-        <div class="wrapper grid">
+        <div id="water" class="wrapper grid">
             <div class="item">
                 <img src="images/menu1.jpg" alt="">
                 <p>〜碧メダカ</p>
@@ -79,5 +79,26 @@
                 <p><small>&copy; 2022 Shoya Kanda</small></p>
             </div>
         </footer>
+  <!-- vanta clouds -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+  <!-- vanta net -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script>
+  VANTA.WAVES({
+  el: "#water",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  shininess: 150.00,
+  waveHeight: 12.00,
+  waveSpeed: 0.90,
+  zoom: 1.19
+})
+  </script>
     </body>
 </html>
