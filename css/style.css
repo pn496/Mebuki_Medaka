@@ -242,6 +242,7 @@ aside p {
 #contact {
     background-image: url(../images/contact-bg.jpg);
     min-height: 100vh;
+    background-color: rgba(108, 178, 240, 0.619);
 }
 
 /* フォーム */
@@ -288,13 +289,15 @@ input[type="submit"] {
 }
 .location-info {
     width: 22%;
+    background-color: #8fe0c1;
 }
 .location-info p {
     padding: 12px 10px;
+    color: #000;
 }
 /* SNS */
 #sns {
-    background: #e9dfc890;
+    background: #8fdbed69;
     padding: 4% 0;
 }
 #sns .wrapper {
@@ -396,7 +399,12 @@ footer p {
     #contact .page-title {
         margin-top: 40px;
     }
-
+    #contact .main-nav {
+        background: rgba(86, 84, 84, 0.5);
+    }
+    .button {
+        margin-bottom: 20px;
+    }
     /* フォーム */
     input[type="text"],
     input[type="email"],
