@@ -148,8 +148,8 @@ article {
     margin-bottom: 50px;
 }
 .post-date {
-    background: rgba(26, 202, 167, 0.749);
-    border-radius: 50%;
+    background: #fbce75b3;
+    border-radius: 90%;
     color: #fff;
     width: 100px;
     height: 100px;
@@ -211,11 +211,11 @@ aside p {
 ------------------------------- */
 #menu {
     background-image: url(../images/menu-bg.jpg);
-    min-height: 100vh;
+    min-height: 41vh;
 }
 .menu-content {
     max-width: 560px;
-    margin-top: 10%;
+    margin-top: 16%;
 }
 .menu-content .page-title {
     text-align: center;
@@ -241,7 +241,7 @@ aside p {
 ------------------------------- */
 #contact {
     background-image: url(../images/contact-bg.jpg);
-    min-height: 100vh;
+    min-height: 45vh;
     background-color: rgba(108, 178, 240, 0.619);
 }
 
@@ -289,7 +289,7 @@ input[type="submit"] {
 }
 .location-info {
     width: 22%;
-    background-color: #8fe0c1;
+    background-color: #fbce75b3;
 }
 .location-info p {
     padding: 12px 10px;
@@ -349,7 +349,9 @@ footer p {
     .home-content {
         margin-top: 20%;
     }
-
+    #home {
+        min-height: 38vh;
+    }
     /* NEWS */
     .news-contents {
         flex-direction: column;
@@ -393,7 +395,7 @@ footer p {
         margin-top: 20%;
     }
     #menu {
-        min-height: 65vh;
+        min-height: 30vh;
     }
     /* CONTACT */
     #contact .page-title {
