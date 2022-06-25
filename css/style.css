@@ -111,7 +111,7 @@ iframe {
 }
 .home-content p {
     font-size: 1.125rem;
-    margin: 10px 0 42px;
+    margin: 155px 0 42px;
 }
 
 /* Top
@@ -349,6 +349,9 @@ footer p {
     .home-content {
         margin-top: 20%;
     }
+    .home-content p {
+        margin: 0 0 20px;
+    }
     #home {
         min-height: 38vh;
     }
@@ -407,6 +410,10 @@ footer p {
     .button {
         margin-bottom: 20px;
     }
+    #contact {
+        min-height: 20vh;
+    }
+    
     /* フォーム */
     input[type="text"],
     input[type="email"],
