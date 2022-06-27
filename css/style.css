@@ -378,6 +378,9 @@ footer p {
         min-height: 38vh;
     }
     /* NEWS */
+    #news {
+        height: 60vh;
+    }
     .news-contents {
         flex-direction: column;
     }
@@ -435,7 +438,10 @@ footer p {
     #contact {
         min-height: 20vh;
     }
-    
+    #contact .wrapper p {
+        margin: 0;
+
+    }
     /* フォーム */
     input[type="text"],
     input[type="email"],
