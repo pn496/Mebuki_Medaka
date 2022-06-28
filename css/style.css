@@ -379,13 +379,13 @@ footer p {
     }
     /* NEWS */
     #news {
-        height: 60vh;
+        height: 70vh;
     }
     .news-contents {
         flex-direction: column;
     }
     #news .page-title {
-        margin-top: 30px;
+        margin: 1rem;
     }
     article,
     aside {
